@@ -1,0 +1,10 @@
+body {
+    text-align: center;
+    background-color: #fafdff;
+    transition: background-color 0.5s ease;
+}
+
+body:hover {
+    background-color: #090101;
+    color: white;
+}

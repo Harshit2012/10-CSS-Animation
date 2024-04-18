@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+}
+
+.pulse {
+    margin-left: 555px;
+    margin-top: 260px;
+    height: 150px;
+    width: 150px;
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+    background-color: black;
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
