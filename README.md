@@ -10,3 +10,4 @@
 
 ## Contribution
 Feel free to improve the animation and contribute to the repository.
+**The repository is under MIT License**
