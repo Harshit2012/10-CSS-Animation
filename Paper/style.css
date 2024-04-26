@@ -1,0 +1,13 @@
+#paper{
+    margin-top: 50px;
+    margin-left: 385px;
+    height: 500px;
+    width: 500px;
+    background-image: url(img.jpeg);
+    transition: all ease 1s;
+    clip-path: circle(50% at 50px 1%);
+}
+
+#paper:hover{
+    clip-path: circle(100%);
+}
